@@ -106,7 +106,6 @@ img {
 }
 
 .section {
-  padding-left: 7rem;
   padding-bottom: 2rem;
 }
 
@@ -115,8 +114,8 @@ img {
   margin-left: 0.875rem;
   font-weight: var(--font-bold);
   position: relative;
-  margin-bottom: 3.75rem;
-
+  margin-top: 2.75rem;
+  margin-bottom: .75rem;
 
 }
 
@@ -141,6 +140,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
+
 }
 
 @keyframes button-push{

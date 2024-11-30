@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/avatar-2.svg"
+// import Image from "../../assets/avatar-2.svg"
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -13,51 +13,27 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about_description">
-            I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.
+            👋🏾Hi, I’m Aaron Essien! I'm someone who is passionate about technology and community building.
+            <br />
+            <br />
+            💻 As a Software Development Engineer in Test (SDET) Intern, I was able to imrpove my technical skills in Python by performing manual and automated tests using libraries such as Pytest and Playwright as well as learning to conduct API testing using Postman. My experience of developing and executing functional and regression tests to ensure the delivery of high-quality software products not only shows my enthusiasm towards learning new skills and technologies, but also reveals that I thrive in fast-paced environments and enjoy collaborating across teams to solve complex problems.
+            <br />
+            <br />
+🎓 Currently pursuing my degree in Computer Science with a minor is Psychology and am active in multiple roles on campus and beyond. This journey has given me with hands-on experiences at organizations like NSBE and MLT, has equipped me with leadership and communication skills.
+<br />
+            <br />
+🌟 Beyond tech, I’m driven by my commitment to empowering others, fostering community, and making a positive impact. Whether through leadership roles in NSBE or building platforms that enhance learning and collaboration, I’m always looking for ways to contribute meaningfully.
             </p>
+            <div className="download__button">
               <a href="" className="btn">Download CV</a>
+
+            </div>
           </div>
 
-          <div className="about__skills grid">
 
-            <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills_name">Development</h3>
-                  <span className="skills__number">90%</span>
-              </div>
-
-              <div className="skills__bar">
-                <span className="skills__percentage development"></span>
-              </div>
-            </div>
-
-            <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills__name">UI/UX design</h3>
-                  <span className="skills__number">80%</span>
-              </div>
-
-              <div className="skills__bar">
-                <span className="skills__percentage ui__design"></span>
-              </div>
-            </div>
-
-            <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills__name">Photography</h3>
-                  <span className="skills__number">60%</span>
-              </div>
-
-              <div className="skills__bar">
-                <span className="skills__percentage photography"></span>
-              </div>
-            </div>
-
-
-          </div>
         </div>
       </div>
-      <AboutBox />
+      {/* <AboutBox /> */}
     </section>
   )
 }
