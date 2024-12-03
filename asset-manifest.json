@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfoliosite/static/css/main.211f7a33.css",
+    "main.js": "/portfoliosite/static/js/main.9e9cf9cd.js",
+    "static/js/453.ec0f271d.chunk.js": "/portfoliosite/static/js/453.ec0f271d.chunk.js",
+    "static/media/headshot.jpg": "/portfoliosite/static/media/headshot.2d08bd25c29616e64693.jpg",
+    "static/media/Aaron-Resume.pdf": "/portfoliosite/static/media/Aaron-Resume.9d2130a0aaf71561262d.pdf",
+    "static/media/work-4.svg": "/portfoliosite/static/media/work-4.b1e5c1341899ee00d86d6c613f593837.svg",
+    "static/media/work-3.svg": "/portfoliosite/static/media/work-3.f1d02dc63be36a2005f8d395ecb8b36c.svg",
+    "static/media/work-1.svg": "/portfoliosite/static/media/work-1.bebc0ee30ea8dd5325cfeb0fe8f2615b.svg",
+    "static/media/work-6.svg": "/portfoliosite/static/media/work-6.e53b868f21628c547fd12d76c5b599db.svg",
+    "static/media/work-5.svg": "/portfoliosite/static/media/work-5.d7139045fa5cd7bea4b9807b31919a00.svg",
+    "static/media/work-2.svg": "/portfoliosite/static/media/work-2.2b1987b3b6f51b87b2538a61b31a43d4.svg",
+    "static/media/logo.svg": "/portfoliosite/static/media/logo.8c2fb23675dc34b2041044d6dd41e4e3.svg",
+    "index.html": "/portfoliosite/index.html",
+    "main.211f7a33.css.map": "/portfoliosite/static/css/main.211f7a33.css.map",
+    "main.9e9cf9cd.js.map": "/portfoliosite/static/js/main.9e9cf9cd.js.map",
+    "453.ec0f271d.chunk.js.map": "/portfoliosite/static/js/453.ec0f271d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.211f7a33.css",
+    "static/js/main.9e9cf9cd.js"
+  ]
+}
