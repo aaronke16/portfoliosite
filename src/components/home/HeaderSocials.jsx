@@ -8,7 +8,7 @@ const HeaderSocials = () => {
             <i class="fa-brands fa-instagram" aria-hidden="true"></i>
         </a>
 
-        <a href="https://www.linkedin.com/in/aaron-essien/" className="home__social-link" target="_blank">
+        <a href="https://www.linkedin.com/in/aaronessien/" className="home__social-link" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
         </a>
 
