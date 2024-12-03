@@ -1,6 +1,6 @@
 import React from 'react'
 import "./home.css"
-import Me from "../../assets/avatar-1.svg"
+import Me from "../../assets/headshot.jpg"
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
 import Shapes from './Shapes'
@@ -9,9 +9,13 @@ const Home = () => {
   return (
     <section className="home container" id="home">
       <div className="intro">
-        <img src={Me} alt="" className="home__img" />
+      <img 
+          src={Me} 
+          alt="Headshot" 
+          style={{ width: "200px", height: "250px", borderRadius: "15%" }} 
+        />
         <h1 className="home__name">Aaron Essien</h1>
-        <span className="home__education">Computer science student at the University at Buffalo</span>
+        <span className="home__education">Computer Science Student at the University at Buffalo</span>
       
         <HeaderSocials />
 

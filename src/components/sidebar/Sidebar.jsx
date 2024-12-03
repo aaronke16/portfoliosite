@@ -7,12 +7,13 @@ const Sidebar = () => {
     <aside className='aside'>
         <a href = "#home" className="nav__logo">
             {/* 36 min */}
-            <img src={Logo} alt = ""></img>
+            {/* <img src={Logo} alt = ""></img> */}
         </a>
 
         <nav className='nav'>
             <div className="nav__menu">
                 <ul className="nav__list">
+                    
                     <li className="nav__item">
                         <a href="#home" className="nav__link">
                             <i className="icon-home"></i>

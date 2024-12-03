@@ -17,14 +17,16 @@ const Resume = () => {
               icon={val.icon}
               title={val.title}
               year = {val.year} 
-              desc = {val.desc}/>
+              desc = {val.desc}
+              contDesc = {val.desc}
+              />
             )
           }
         })}
         </div>
 
         <div className="timeline grid">{Data.map((val, id) => {
-          if(val.category === "education"){
+          if(val.category === "experience"){
             return (
               <Card 
               key={id} 

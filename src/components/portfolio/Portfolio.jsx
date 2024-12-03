@@ -13,10 +13,10 @@ const Portfolio = () => {
   }
 
   return (
-    <section className="worl container section" id="work">
+    <section className="worl container section" id="portfolio">
       <h2 className="section__title">Recent Works</h2>
 
-      <div className="work__filters">
+      {/* <div className="work__filters">
         <span className="work__item" onClick={()=> setItems(Menu)}>Everything</span>
         <span className="work__item" onClick={()=> filterItem
           ("Creative")}>Creative</span>
@@ -26,26 +26,25 @@ const Portfolio = () => {
           ("Design")}>Design</span>
         <span className="work__item" onClick={()=> filterItem
           ("Branding")}>Branding</span>
-      </div>
+      </div> */}
 
       <div className="work__container grid">
-        {items.map((elem) => {
-          const{id, image, title, category} = elem;
-          return (
-            <div className="work__card" key = {id}>
-              <div className="work__thumbnail">
-                <img src={image} alt="" className="work__img" />
-                <div className="work__mask"></div>
-              </div>
-              <span className="work__category">{category}</span>
-              <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
-                <i className="icon-link work__button-icon"></i>
-              </a>
-            </div>
-          )
-        })}
+          {items.map((elem) => {
+              const { id, image, title, category, link } = elem;
+              return (
+                  <a href={link} target="_blank" rel="noopener noreferrer" className="work__card" key={id}>
+                      <div className="work__thumbnail">
+                          <img src={image} alt={title} className="work__img" />
+                          <div className="work__mask"></div>
+                      </div>
+                      <span className="work__category">{category}</span>
+                      <h3 className="work__title">{title}</h3>
+                  </a>
+              );
+          })}
       </div>
+
+
 
     </section>
   )

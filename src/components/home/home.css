@@ -10,8 +10,15 @@
     max-width: 540px;
     /* background-color: antiquewhite; */
     text-align: center;
+    z-index: 2; /* Place it above other elements */
+
 }
 
+  .shapes {
+    z-index: 1; /* Ensure shapes are behind clickable elements */
+  }
+
+  
 .home__img {
     margin-bottom: 1.5rem;
 }
@@ -26,6 +33,7 @@
     display: flex;
     column-gap: 1.75rem;
     margin: 1.5rem 0;
+    justify-content: center;
 }
 
 .home__social-link {
@@ -43,6 +51,7 @@
     bottom: 2.5rem;
     left: 0;
     width: 100%;
+    cursor: pointer;
 }
 
 .home__scroll-name {
